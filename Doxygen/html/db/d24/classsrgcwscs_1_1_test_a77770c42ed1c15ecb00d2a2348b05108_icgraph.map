@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a23d556c6faad3f76242a8d1d8651d7b2" title="Check if it is feasible to merge two given routes." alt="" coords="268,85,551,115"/>
+<area shape="rect" href="$d5/d50/classsrgcwscs_1_1_outputs.html#abfa1d93c32becd2958fe65e87d95a231" title="Outputs Constructor." alt="" coords="321,139,497,168"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a7bcaff62665d71db34667500868cba93" title="Performs the edge selection and the route merging." alt="" coords="600,85,915,115"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#af32f2c24de91a3e250fb9a0953d40adf" title="Core method to solve the VRP according to a given characteristics, with a set of..." alt="" coords="963,85,1136,115"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#adda46ddfc48dbf830c158deb58c8e96b" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1223,5,1452,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a6dc2263a6126c04a3df4dc8ccdbed910" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1184,59,1491,88"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#a84e52d101d293d06da238eb14bf239a4" title="Applies CWS&#45;MCS solving process to each problem region." alt="" coords="1253,112,1421,141"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#ac05de9dee19fb6cc80165a48e999f17a" title="SRGCWSCS Constructor." alt="" coords="1221,165,1453,195"/>
+<area shape="rect" href="$d5/d0f/classsrgcwscs_1_1srgcwscs_tester.html#ab969c50cb56a4aa6e1db1832c5a4c591" title="Application main method, makes the basic input, solving and output calls." alt="" coords="1557,5,1760,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a9155125b819a94d1391d38a86a75b0af" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1540,112,1777,141"/>
+</map>

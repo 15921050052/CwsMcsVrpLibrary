@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a23d556c6faad3f76242a8d1d8651d7b2" title="Check if it is feasible to merge two given routes." alt="" coords="473,60,756,89"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a9d31e2c7ef8b15aa1a52623107a38b6b" title="Constructs the CWS initial dummy Solution." alt="" coords="837,112,1088,141"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a2452350902ea0200d5acf77ac75e7523" title="Merge to given routes in a solution through an edge." alt="" coords="204,7,423,36"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#abe7d12abdca203a5e1b7347e9f5b63e4" title="Gets a string formatted information related to the route." alt="" coords="232,164,395,193"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a7bcaff62665d71db34667500868cba93" title="Performs the edge selection and the route merging." alt="" coords="805,59,1120,88"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#af32f2c24de91a3e250fb9a0953d40adf" title="Core method to solve the VRP according to a given characteristics, with a set of..." alt="" coords="1168,85,1341,115"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#adda46ddfc48dbf830c158deb58c8e96b" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1428,5,1657,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a6dc2263a6126c04a3df4dc8ccdbed910" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1389,59,1696,88"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#a84e52d101d293d06da238eb14bf239a4" title="Applies CWS&#45;MCS solving process to each problem region." alt="" coords="1459,112,1627,141"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#ac05de9dee19fb6cc80165a48e999f17a" title="SRGCWSCS Constructor." alt="" coords="1427,165,1659,195"/>
+<area shape="rect" href="$d5/d0f/classsrgcwscs_1_1srgcwscs_tester.html#ab969c50cb56a4aa6e1db1832c5a4c591" title="Application main method, makes the basic input, solving and output calls." alt="" coords="1763,5,1965,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a9155125b819a94d1391d38a86a75b0af" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1745,112,1983,141"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#aab6184c895f6d718e5e1e1bb88361949" title="Coordinates the merging process, reduces the timing used for coordinates routes and..." alt="" coords="496,7,733,36"/>
+</map>

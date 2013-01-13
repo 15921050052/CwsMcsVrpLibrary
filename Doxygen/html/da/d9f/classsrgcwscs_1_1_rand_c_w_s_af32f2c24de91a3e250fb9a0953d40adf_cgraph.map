@@ -1,0 +1,45 @@
+<map id="G" name="G">
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html#a38510d99d0f518df6541c8589f9589dd" title="Adds a given route costs to the global solution cost." alt="" coords="1256,160,1443,189"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#a473b073cd83b0090ca98aa997dc9becd" title="Calculates a new savings edge order according to a randomization bias.It uses Lecuyer..." alt="" coords="237,1709,531,1739"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a7bcaff62665d71db34667500868cba93" title="Performs the edge selection and the route merging." alt="" coords="227,719,541,748"/>
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html#ad1eb86c5a8e80359c172a4999c483521" title="Gets the array list of routes for the global solution." alt="" coords="1255,480,1444,509"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a9d31e2c7ef8b15aa1a52623107a38b6b" title="Constructs the CWS initial dummy Solution." alt="" coords="927,373,1177,403"/>
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html#a07667f3835b551ad52fe5ce1a0ebc57b" title="Update the costs for the global solution." alt="" coords="292,1763,476,1792"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#af1ea691dca6fa0e86f69b37cd88835a3" title="Get route costs." alt="" coords="1509,160,1680,189"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#a430b897e838cc7db0da566205156a9ab" title="Gets beta maximum value." alt="" coords="636,1683,815,1712"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#adeed35e9890cf14f474b2c8f7e7f5a88" title="Gets beta minimum value." alt="" coords="637,1736,813,1765"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#ae7e0542bb2a4d110552a5f14fa1aa974" title="Gets gometric distribution to be used when generating random numbers." alt="" coords="629,1789,821,1819"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#af5c3fa1b87cb23c537dafc4c79456eea" title="Gets a random position according to a given type of distribution." alt="" coords="589,1843,861,1872"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a23d556c6faad3f76242a8d1d8651d7b2" title="Check if it is feasible to merge two given routes." alt="" coords="911,1133,1193,1163"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#acedbf7f3eb08bdccb0a5ad399c025311" title="Get Ending Node." alt="" coords="1517,663,1672,692"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a3da9a044ba0a8416b49fb5b736c733f5" title="Get Starting Node." alt="" coords="1512,1476,1677,1505"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a70e61fc97af8dc5801be5c2dd9f38983" title="Gets the edge directly connected to the depot." alt="" coords="925,1425,1179,1455"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#afa1fc7be16768dae22d7e61ca5d0b2ec" title="Get route edges." alt="" coords="1263,792,1436,821"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a2aeb3e3ed37a1bb1d18ccc265a1b9f57" title="Gets the route instance which the node is associated." alt="" coords="643,641,808,671"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#aab6184c895f6d718e5e1e1bb88361949" title="Coordinates the merging process, reduces the timing used for coordinates routes and..." alt="" coords="607,796,844,825"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a59c921d9d7b2ca5337d0996b1d6a0199" title="Reverse the edge, starting and ending nodes are swapped." alt="" coords="1271,899,1428,928"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#af84328552840115a9c89f2e8864eeabe" title="Updates the nodes status in the route." alt="" coords="1257,5,1441,35"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#a8f24d7d060487d00139ce3cc6345b719" title="Remove edge cost from total route cost." alt="" coords="949,264,1155,293"/>
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html#a9ed4f115ce02e47dcf4f85272de89219" title="Remove a given route costs to the global solution cost." alt="" coords="943,319,1161,348"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#a025c39ca31758149948534e9dc087272" title="Get route demand." alt="" coords="1257,1320,1441,1349"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#a9dcc9ef4ad8b28571f395821fcd1a901" title="Get route identification." alt="" coords="1276,637,1423,667"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#a77770c42ed1c15ecb00d2a2348b05108" title="Gets maximum route costs." alt="" coords="1243,1107,1456,1136"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#ae59d4e063f8c4d881b7d488c59e369c4" title="Get route nodes." alt="" coords="1263,952,1436,981"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a6caef062fe22dbd73c76de11d74fffd6" title="Get Edge Savings value." alt="" coords="1260,1160,1439,1189"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#adcefeef4ab146d99c6d01132d50f63d7" title="Gets Service Costs." alt="" coords="1247,1213,1452,1243"/>
+<area shape="rect" href="$d2/d00/classsrgcwscs_1_1_vehicle.html#ae05dda2b37c525ae80bc761f88a52d28" title="Gets vehicle capacity." alt="" coords="1263,1267,1436,1296"/>
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#aaf4239bef28ba35b08a2f4fe678599f2" title="Gets a vehicle stored in a given position of the array list of available vehicles..." alt="" coords="1260,1373,1439,1403"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a40d2d8ebcffb786c3b353b87108611da" title="Gets the nodes identification." alt="" coords="1277,1528,1421,1557"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a2452350902ea0200d5acf77ac75e7523" title="Merge to given routes in a solution through an edge." alt="" coords="943,532,1161,561"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a404ed42a0fa6570378a855e837838b5f" title="Reverse the route direction, reversing all edges in route." alt="" coords="943,847,1161,876"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#a85bf0163875818ca04db252cbdad766d" title="Updates route cost add an edge cost." alt="" coords="1263,320,1436,349"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#af01e70b1d49f730cd34fc2cb6817b104" title="add Edge demand to the total route demand" alt="" coords="1256,373,1443,403"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#aae3669c12cbb8e896b444e66928a7b32" title="Adds a new edge to he route." alt="" coords="1265,584,1433,613"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a32b8133c3d39f06e2f76cf10a5b1b43f" title="Updates route identification associated to the node." alt="" coords="1261,267,1437,296"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a5c484c1e76a4a1d327dc2d6d2f9e5719" title="Updates the route instance associated to the node." alt="" coords="1267,427,1432,456"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a63c05df2cf92e78ae964fe1d98b9b0c1" title="Get Edge costs." alt="" coords="1512,83,1677,112"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a65f063a6c2c0cb5f2b492118f6908033" title="Gets node demand." alt="" coords="1505,373,1684,403"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#aa4d6f20b8a48346cbfefb2238ae95c28" title="Sets a new list of edges and nodes." alt="" coords="1263,845,1436,875"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a39723657802be75b7fe3a688431bb000" title="Gets route status in the routes." alt="" coords="1513,5,1676,35"/>
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html#a2f8bc5efed22aac38afe80b9bb22b206" title="Adds a new route to the solution." alt="" coords="1256,213,1443,243"/>
+</map>

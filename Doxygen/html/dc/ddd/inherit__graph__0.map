@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$d3/d10/class_comparable.html" title="Comparable" alt="" coords="5,59,96,88"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html" title="This class represents an edge connecting two nodes in the VRP." alt="" coords="153,5,263,35"/>
+<area shape="rect" href="$d9/dfd/classsrgcwscs_1_1_solution.html" title="This class represents a solution (array of routes) of a VRP instance." alt="" coords="144,59,272,88"/>
+<area shape="rect" href="$d2/d00/classsrgcwscs_1_1_vehicle.html" title="This class manage vehicle issues." alt="" coords="147,112,269,141"/>
+</map>

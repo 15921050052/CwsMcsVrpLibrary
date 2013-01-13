@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#a16690c7100f71d5c4bfe2ab440f3067e" title="Calculates a new savings edge order according to a randomization bias.It uses Lecuyer..." alt="" coords="273,32,540,61"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#a473b073cd83b0090ca98aa997dc9becd" title="Calculates a new savings edge order according to a randomization bias.It uses Lecuyer..." alt="" coords="260,85,553,115"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#a3d8be85c0efc02f5f11f79edec403915" title="Calculates a new savings edge order according to a randomization bias." alt="" coords="245,139,568,168"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#af32f2c24de91a3e250fb9a0953d40adf" title="Core method to solve the VRP according to a given characteristics, with a set of..." alt="" coords="616,85,789,115"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#adda46ddfc48dbf830c158deb58c8e96b" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="876,5,1105,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a6dc2263a6126c04a3df4dc8ccdbed910" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="837,59,1144,88"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#a84e52d101d293d06da238eb14bf239a4" title="Applies CWS&#45;MCS solving process to each problem region." alt="" coords="907,112,1075,141"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#ac05de9dee19fb6cc80165a48e999f17a" title="SRGCWSCS Constructor." alt="" coords="875,165,1107,195"/>
+<area shape="rect" href="$d5/d0f/classsrgcwscs_1_1srgcwscs_tester.html#ab969c50cb56a4aa6e1db1832c5a4c591" title="Application main method, makes the basic input, solving and output calls." alt="" coords="1211,5,1413,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a9155125b819a94d1391d38a86a75b0af" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1193,112,1431,141"/>
+</map>

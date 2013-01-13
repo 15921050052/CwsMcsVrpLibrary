@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a23d556c6faad3f76242a8d1d8651d7b2" title="Check if it is feasible to merge two given routes." alt="" coords="236,85,519,115"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#af1402db1e5e56f8857db09665e60d530" title="Compare the node id against a given node." alt="" coords="288,139,467,168"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#ac0d70f5c9bf9174208474dc7d290f937" title="Method used to get Edge information in a string mode." alt="" coords="297,192,457,221"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#a7bcaff62665d71db34667500868cba93" title="Performs the edge selection and the route merging." alt="" coords="568,85,883,115"/>
+<area shape="rect" href="$da/d9f/classsrgcwscs_1_1_rand_c_w_s.html#af32f2c24de91a3e250fb9a0953d40adf" title="Core method to solve the VRP according to a given characteristics, with a set of..." alt="" coords="931,85,1104,115"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#adda46ddfc48dbf830c158deb58c8e96b" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1191,5,1420,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a6dc2263a6126c04a3df4dc8ccdbed910" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1152,59,1459,88"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#a84e52d101d293d06da238eb14bf239a4" title="Applies CWS&#45;MCS solving process to each problem region." alt="" coords="1221,112,1389,141"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#ac05de9dee19fb6cc80165a48e999f17a" title="SRGCWSCS Constructor." alt="" coords="1189,165,1421,195"/>
+<area shape="rect" href="$d5/d0f/classsrgcwscs_1_1srgcwscs_tester.html#ab969c50cb56a4aa6e1db1832c5a4c591" title="Application main method, makes the basic input, solving and output calls." alt="" coords="1525,5,1728,35"/>
+<area shape="rect" href="$d8/db4/classsrgcwscs_1_1_s_r_g_c_w_s_c_s.html#a9155125b819a94d1391d38a86a75b0af" title="Solve the VRP problem returning an Output manager instance. Number of iterations..." alt="" coords="1508,112,1745,141"/>
+</map>

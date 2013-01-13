@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a608d117067f358eb94f3c6d105e3d0b2" title="Calculates the edges cost, geometric distance between nodes." alt="" coords="204,5,407,35"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a29433208e747e1536d21f380a484e7f3" title="Calculates the edges savings value according to Clarke and Wright definition." alt="" coords="197,59,413,88"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a6f6569598eb205bc332228f301961336" title="Gets x coordinate." alt="" coords="461,5,603,35"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#a07a4502f81a9700418a3dffce1707a39" title="Gets y coordinate." alt="" coords="461,59,603,88"/>
+</map>

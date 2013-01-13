@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#ae738c41894a9fdccc888b950b50f6189" title="Create a savings list according to CWS heuristic." alt="" coords="244,32,457,61"/>
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#a06686b2e30f388553ae8879c6ad1c5c0" title="Sets a given node in a given position of the array of nodes." alt="" coords="267,85,435,115"/>
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#a741b0aeccd51a80507fa702e9e453bb1" title="Creates an array list of edges connecting the problem nodes." alt="" coords="509,5,693,35"/>
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#a82c7e486794a8bcd1b20b97fab7502e6" title="Returns an array list of edges." alt="" coords="507,59,696,88"/>
+</map>

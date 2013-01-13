@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#a430b897e838cc7db0da566205156a9ab" title="Gets beta maximum value." alt="" coords="437,5,616,35"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#adeed35e9890cf14f474b2c8f7e7f5a88" title="Gets beta minimum value." alt="" coords="439,59,615,88"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html#ae7e0542bb2a4d110552a5f14fa1aa974" title="Gets gometric distribution to be used when generating random numbers." alt="" coords="431,112,623,141"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html#aeca507e4223958518c7c60892769f3c7" title="Gets a random position according to a given type of distribution." alt="" coords="377,165,676,195"/>
+</map>
