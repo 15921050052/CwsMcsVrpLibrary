@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html" title="This class represents the basic inputs for a VRP instance, a set of nodes, edges..." alt="" coords="573,688,688,717"/>
+<area shape="rect" href="$db/dbc/classsrgcwscs_1_1_randomness.html" title="This class manages the random behavior (Monte Carlo Simulation) of the library." alt="" coords="277,784,432,813"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html" title="This class represents an edge connecting two nodes in the VRP." alt="" coords="576,592,685,621"/>
+<area shape="rect" href="$d3/d10/class_comparable.html" title="Comparable\&lt;Edge\&gt;" alt="" coords="544,459,680,488"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html" title="This class represents a node in the VRP. A node could be a customer (delivery point)..." alt="" coords="704,459,813,488"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html" title="This class represents a route (array of edges) of a VRP instance." alt="" coords="663,331,777,360"/>
+<area shape="rect" href="$d2/d00/classsrgcwscs_1_1_vehicle.html" title="This class manage vehicle issues." alt="" coords="916,115,1039,144"/>
+<area shape="rect" href="$db/d24/classsrgcwscs_1_1_test.html" title="This class represents a test to be run. A test has a set of properties related to..." alt="" coords="47,459,151,488"/>
+<area shape="rect" href="$d3/d10/class_comparable.html" title="Comparable\&lt; Vehicle \&gt;" alt="" coords="1115,5,1269,35"/>
+</map>

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<TITLE> Library Usage </TITLE>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.2  (Linux)">
+	<META NAME="AUTHOR" CONTENT="marcos ">
+	<META NAME="CREATED" CONTENT="20130107;19000700">
+	<META NAME="CHANGEDBY" CONTENT="marcos ">
+	<META NAME="CHANGED" CONTENT="20130112;20195300">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-GB" DIR="LTR">
+<P STYLE="margin-bottom: 0cm"><U><B>How to use Clarke and Wright with
+Monte Carlo Simulation library</B></U></P>
+
+<P STYLE="margin-bottom: 0cm; text-decoration: none"><B>1. Download
+library jar and lecuyer library jar</B></P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+First of all create a new project with you Java IDE. Next step is to
+download from <A HREF="../ssj.jar" TARGET="_blank">here</A> lecuyer library and from <A HREF="../cwsMcs.jar" TARGET="_blank">here</A> Clarke and Wright
+with Monte Carlo Simulation library.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal"><U>Remember:
+Lecuyer library is used in order to generate random numbers. You can
+use Java Util Random from the standard Java library but its
+performance is slightly lower.</U></P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Finally, add from your Java IDE the two downloaded jar files to the
+Java Build Path of your created project.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+<I>Note for Eclipse Users: Adding a jar file from eclipse is really
+easy. Go to project properties-&gt;Java Build Path-&gt;Libraries and
+click Add Jars button. Select the two downloaded files and enjoy it!</I></P>
+
+<P STYLE="margin-bottom: 0cm; font-style: normal; text-decoration: none">
+<B>2. Configure Input Structure</B></P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+If you want to use the input mechanisms present in the library you
+must follow these steps.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal"><U><B>First</B><SPAN STYLE="font-weight: normal">,
+list of tests file:</SPAN></U></P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+It is necessary to create a list of tests file, each row in this file
+will represent the characteristics of a VRP instance. The row pattern
+is:</P>
+
+<P STYLE="margin-bottom: 0cm; font-style: normal"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">instanceName
+</SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+maxRouteCosts </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+serviceCosts </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+maxTime(sec) </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+nIterRandCWS </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+nSols </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+distribution </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+betaMin </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+betaMax </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+randomGenerator </SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)</SPAN></SPAN></I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">
+seed</SPAN></SPAN></P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+<I>(tab) stands for tabulation</I></P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Example:</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Golden_01		650	       0              10           1000          1    
+     g            0.1      0.2         java           88</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+distribution options are t (triangular) g (geometric) u (uniform). It
+is strongly recommendable to use the geometric one.</P>
+<BR>
+Once it has been created a list of test it will be necessary to load
+it through a TestPlanner instance as follows:
+<PRE> 
+<FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">String testsFilePath = </SPAN></SPAN></FONT><FONT COLOR="#2a00ff"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">&quot;Test2Run.txt&quot;</SPAN></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT SIZE=3><FONT COLOR="#000000">TestsPlanner planner = </FONT><FONT COLOR="#7f0055"><B>new</B></FONT><FONT COLOR="#000000"> TestsPlanner(testsFilePath);</FONT></FONT></FONT>
+<FONT FACE="Monospace"><FONT SIZE=3>ArrayList&lt;Test&gt; testsList = planner.getTestsList();</FONT></FONT></FONT>
+</PRE>
+
+<P STYLE="margin-bottom: 0cm"><U><B>Second</B><SPAN STYLE="font-weight: normal">,
+vrp instance definition and available vehicles:</SPAN></U></P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+It must be defined two files to have a VRP instance description. A
+VRP description is composed by node coordinates and demands plus load
+capabilities for serving vehicles.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+First file to define is the list of problem nodes. Each row
+represents a node coordinate and its demand. First node must be
+always the depot node with a demand of 0.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: normal; text-decoration: none">
+Row pattern is:</P>
+<P STYLE="margin-bottom: 0cm"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">doubleXValue
+</SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)
+</SPAN></SPAN></I><SPAN STYLE="font-style: normal"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">doubleYValue
+</SPAN></SPAN></SPAN><I><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">(tab)
+</SPAN></SPAN></I><SPAN STYLE="font-style: normal"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">integerDemand</SPAN></SPAN></SPAN></P>
+
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Example:</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+   0.0000      0.0000      0 
+</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+  30.0000      0.0000     10</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Instance with just one customer, first row is the depot coordinates
+and second row the customer coordinates with 10 units of demand.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Second file to define is the load capacity for the vehicles that are
+going to be used. It is just necessary to have an integer value that
+represent load units.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Example:</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+550</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+Instance where the vehicles have a 550  load units.</P>
+<P STYLE="margin-bottom: 0cm"><SPAN STYLE="font-style: normal"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">Once
+these two files are created for each VRP instance </SPAN></SPAN></SPAN><FONT COLOR="#323232"><FONT FACE="Monospace"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">InputsManager</SPAN></SPAN></SPAN></FONT></FONT></FONT><FONT COLOR="#323232"><FONT FACE="Monospace"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="text-decoration: none"><B>
+</B></SPAN></SPAN></FONT></FONT></FONT>class must be used to load
+each problem information.</P>
+
+<PRE>
+<FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#7f0055"><B>for</B></FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#7f0055"><B>int</B></FONT><FONT COLOR="#000000"> k = 0; k &lt; testsList.size(); k++) </FONT></FONT></FONT>
+<FONT FACE="Monospace"><FONT SIZE=3>{</FONT></FONT></FONT>
+<FONT COLOR="#000000">  <FONT FACE="Monospace"><FONT SIZE=3>Test aTest = testsList.get(k);</FONT></FONT></FONT>
+
+<FONT COLOR="#000000"></FONT><FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#3f7f5f">  //Get the instance inputs(nodes data)and the </FONT><FONT COLOR="#3f7f5f"><SPAN STYLE="text-decoration: none">vcap</SPAN></FONT><FONT COLOR="#3f7f5f"> inputs .</FONT></FONT></FONT>
+<FONT COLOR="#000000"> <FONT FACE="Monospace"><FONT SIZE=3> String inputsFilePath = aTest.getInstanceName() + </FONT><FONT COLOR="#2a00ff">&quot;_input_nodes.txt&quot;</FONT><FONT COLOR="#000000">;</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  String inputsVehicleFilePath = aTest.getInstanceName() + </FONT><FONT COLOR="#2a00ff">&quot;_vehicle_load.txt&quot;</FONT><FONT COLOR="#000000">;</FONT></FONT></FONT>
+<FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#3f7f5f">  //Load the set of vrp instances </FONT> </FONT> </FONT>
+<FONT COLOR="#000000"> <FONT FACE="Monospace"><FONT SIZE=3> InputsManager inMan = </FONT><FONT COLOR="#7f0055">new </FONT><FONT COLOR="#000000">InputsManager(inputsFilePath,inputsVehicleFilePath);</FONT></FONT></FONT>
+<FONT COLOR="#000000"> <FONT FACE="Monospace"><FONT SIZE=3> Inputs inputs = inMngr.getInputs();</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>}</FONT></FONT></FONT>
+</PRE>
+
+<P STYLE="margin-bottom: 0cm; font-style: normal; text-decoration: none">
+<B>3. Solving VRP instance.</B></P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
+After having loaded  VRP input instances it can be selected one of
+the three methods present in SRGCWSCS class in order to solve the
+problem. Output class can also be used to manage the solutions
+built in a file. <BR> <BR> Example: The standard method from  SRGCWSCS
+is used in order to generate solutions for a list of vrp instances.</P>
+
+<PRE>
+<FONT COLOR="#3f7f5f"><FONT FACE="Monospace"><FONT SIZE=3>//Load list of tests files</FONT></FONT></FONT>
+<FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">String testsFilePath = </SPAN></SPAN></FONT><FONT COLOR="#2a00ff"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">&quot;Test2Run.txt&quot;</SPAN></SPAN></FONT><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-weight: normal">;</SPAN></SPAN></FONT></FONT></FONT>
+<FONT SIZE=3><FONT COLOR="#000000">TestsPlanner planner = </FONT><FONT COLOR="#7f0055"><B>new</B></FONT><FONT COLOR="#000000"> TestsPlanner(testsFilePath);</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>ArrayList&lt;Test&gt;testsList = planner.getTestsList();</FONT></FONT></FONT>
+
+<FONT COLOR="#3f7f5f"><FONT FACE="Monospace"><FONT SIZE=3>//For each test load instance definitions (nodes and vehicle capacity)</FONT></FONT></FONT>
+<FONT COLOR="#3f7f5f"><FONT FACE="Monospace"><FONT SIZE=3>//solve it and leave the result in output folder</FONT></FONT></FONT>
+<FONT SIZE=3><FONT COLOR="#7f0055"><B>for</B></FONT><FONT COLOR="#000000">(</FONT><FONT COLOR="#7f0055"><B>int</B></FONT><FONT COLOR="#000000"> k = 0; k &lt; testsList.size(); k++) </FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>{</FONT></FONT></FONT>
+<FONT SIZE=3>  Test aTest = testsList.get(k);</FONT></FONT></FONT>
+
+<FONT COLOR="#000000"></FONT><FONT FACE="Monospace"><FONT SIZE=3><FONT COLOR="#3f7f5f">  //Get the instance inputs(nodes data)and the </FONT><FONT COLOR="#3f7f5f"><SPAN STYLE="text-decoration: none">vcap</SPAN></FONT><FONT COLOR="#3f7f5f"> inputs .</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  String inputsFilePath = aTest.getInstanceName() + </FONT><FONT COLOR="#2a00ff">&quot;_input_nodes.txt&quot;</FONT><FONT COLOR="#000000">;</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  String inputsVehicleFilePath = aTest.getInstanceName() + </FONT><FONT COLOR="#2a00ff">&quot;_vehicle_load.txt&quot;</FONT><FONT COLOR="#000000">;</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  InputsManager inMan = </FONT><FONT COLOR="#7f0055"><B>new</B></FONT><FONT COLOR="#000000">InputsManager(inputsFilePath,inputsVehicleFilePath);</FONT></FONT></FONT>
+<FONT FACE="Monospace"><FONT SIZE=3>  Inputs inputs = inMngr.getInputs();</FONT></FONT></FONT>
+
+<FONT COLOR="#000000"></FONT><FONT SIZE=3><FONT COLOR="#3f7f5f"><FONT FACE="Monospace">  //Solve the problem</FONT></FONT></FONT>
+<FONT COLOR="#3f7f5f"></FONT><FONT SIZE=3><FONT COLOR="#000000"><FONT FACE="Monospace">  SRGCWSCS algorithm = </FONT></FONT><FONT COLOR="#7f0055"><FONT FACE="Monospace"><B>new</B></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Monospace">SRGCWSCS(aTest, inputs);</FONT></FONT></FONT>
+<FONT COLOR="#3f7f5f"> 
+<FONT FACE="Monospace"><FONT SIZE=3>  //Print the solution</FONT></FONT></FONT>
+<FONT COLOR="#3f7f5f"></FONT><FONT SIZE=3><FONT COLOR="#000000"><FONT FACE="Monospace">  Outputs output = algorithm.solveInTime();</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  String outFilePath = </FONT><FONT COLOR="#2a00ff">&quot;outputs/&quot;</FONT><FONT COLOR="#000000">+ aTest.getInstanceName() +</FONT><FONT COLOR="#2a00ff">&quot;_outputs.txt&quot;</FONT><FONT COLOR="#000000">;</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>  output.sendToFile(outFilePath);</FONT></FONT></FONT>
+<FONT COLOR="#000000"><FONT FACE="Monospace"><FONT SIZE=3>}</FONT></FONT></FONT>
+</PRE>
+</BODY>
+</HTML>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#a8133e04b75f3180788f227b4fce95f04" title="Gets an array of nodes corresponding to the customers of the problem." alt="" coords="253,5,443,35"/>
+<area shape="rect" href="$d2/d00/classsrgcwscs_1_1_vehicle.html#ae05dda2b37c525ae80bc761f88a52d28" title="Gets vehicle capacity." alt="" coords="261,59,435,88"/>
+<area shape="rect" href="$d4/d46/classsrgcwscs_1_1_inputs.html#aaf4239bef28ba35b08a2f4fe678599f2" title="Gets a vehicle stored in a given position of the array list of available vehicles..." alt="" coords="259,112,437,141"/>
+</map>

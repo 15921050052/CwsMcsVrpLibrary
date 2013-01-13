@@ -1,0 +1,21 @@
+# instance | maxRouteCosts | serviceCosts | maxTime(sec) | nIterRandCWS | nSols | distribution | betaMin | betaMax | randomGenerator | seed 
+kelly01		650	       0              10           1000          1          g            0.1      0.2         java           88
+kelly02		900	       0              10           1000          1          g            0.1      0.2         java           88
+kelly03		1200	       0              10           1000          1          g            0.1      0.2         java           88
+kelly04		1600	       0              10           1000          1          g            0.1      0.2         java           88
+kelly05		1800	       0              10           1000          1          g            0.1      0.2         java           88
+kelly06		1500	       0              10           1000          1          g            0.1      0.2         java           88
+kelly07		1300	       0              10           1000          1          g            0.1      0.2         java           88
+kelly08		1200	       0              10           1000          1          g            0.1      0.2         java           88
+kelly09		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly10		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly11		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly12		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly13		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly14		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly15		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly16		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly17		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly18		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly19		999999	       0              10           1000          1          g            0.1      0.2         java           88
+kelly20		999999	       0              10           1000          1          g            0.1      0.2         java           88

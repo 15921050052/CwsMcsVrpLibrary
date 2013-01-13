@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a608d117067f358eb94f3c6d105e3d0b2" title="Calculates the edges cost, geometric distance between nodes." alt="" coords="209,5,412,35"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#aaa3f4232c2a8296c9ef14b43e52c6fd8" title="Returns the geometric center coordinates." alt="" coords="195,112,427,141"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a29433208e747e1536d21f380a484e7f3" title="Calculates the edges savings value according to Clarke and Wright definition." alt="" coords="203,59,419,88"/>
+<area shape="rect" href="$df/d12/classsrgcwscs_1_1_node.html#acbe8422d728cf8bb2d4ba80e4dbc415b" title="Gets a string formatted information related to the node." alt="" coords="231,165,391,195"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a7a21ae30963c99024742d0366396d71a" title="Edge Constructor." alt="" coords="475,32,619,61"/>
+<area shape="rect" href="$da/d6c/classsrgcwscs_1_1_split.html#aeacdc5b0fc10ac1e909a410294b5bb05" title="Split constructor." alt="" coords="479,112,615,141"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#aae3669c12cbb8e896b444e66928a7b32" title="Adds a new edge to he route." alt="" coords="277,32,445,61"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#afa1fc7be16768dae22d7e61ca5d0b2ec" title="Get route edges." alt="" coords="275,85,448,115"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#ae59d4e063f8c4d881b7d488c59e369c4" title="Get route nodes." alt="" coords="275,139,448,168"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a59c921d9d7b2ca5337d0996b1d6a0199" title="Reverse the edge, starting and ending nodes are swapped." alt="" coords="283,192,440,221"/>
+<area shape="rect" href="$df/d82/classsrgcwscs_1_1_route.html#aa4d6f20b8a48346cbfefb2238ae95c28" title="Sets a new list of edges and nodes." alt="" coords="275,245,448,275"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#acedbf7f3eb08bdccb0a5ad399c025311" title="Get Ending Node." alt="" coords="503,5,657,35"/>
+<area shape="rect" href="$df/d5c/classsrgcwscs_1_1_edge.html#a3da9a044ba0a8416b49fb5b736c733f5" title="Get Starting Node." alt="" coords="497,59,663,88"/>
+</map>
